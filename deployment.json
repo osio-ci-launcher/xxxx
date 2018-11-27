@@ -1,0 +1,24 @@
+{
+  "applications": [
+    {
+      "application": "xxxx",
+      "shared": {},
+      "capabilities": [
+        {
+          "module": "welcome",
+          "props": {},
+          "extra": {}
+        },
+        {
+          "module": "rest",
+          "props": {},
+          "extra": {
+            "sourceMapping": {
+              "greetingEndpoint": "greeting.js"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
